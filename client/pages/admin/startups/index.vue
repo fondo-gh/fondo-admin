@@ -17,7 +17,7 @@ import { mapFields } from 'vuex-map-fields'
 import PageFooter from '@/components/Base/Page/PageFooter'
 import TitlePage from '@/components/Base/Title/TitlePage'
 import CardComponent from '@/components/Base/Card/CardComponent'
-import Startups from '@/components/Startups/index'
+import Startups from '@/components/Startups/Index'
 
 export default {
   layout: 'admin',
