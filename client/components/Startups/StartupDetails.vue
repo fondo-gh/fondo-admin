@@ -143,7 +143,7 @@
               Key Resources: <strong>{{ model.key_resources }}</strong>
             </p>
             <p>
-              Custormer Target: <strong>{{ model.customer_target }}</strong>
+              Customer Target: <strong>{{ model.customer_target }}</strong>
             </p>
             <p>
               Value Proposition: <strong>{{ model.value_proposition }}</strong>
@@ -175,7 +175,7 @@
           </div>
         </b-tab>
         <b-tab @click="productDetails" title="Product Detail">
-          <h4>Startup Team</h4>
+          <h4>Product Details</h4>
           <div v-if="loader && !product" style="text-align: center;">
             <img
               width="100"
@@ -239,7 +239,7 @@
             </div>
           </b-card-text></b-tab
         >
-        <b-tab @click="startupTeam" title="Strtup Team">
+        <b-tab @click="startupTeam" title="Startup Team">
           <h4>Startup Team</h4>
           <div v-if="loader && !startupteam" style="text-align: center;">
             <img
