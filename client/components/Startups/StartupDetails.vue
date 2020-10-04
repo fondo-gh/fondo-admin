@@ -143,7 +143,7 @@
               Key Resources: <strong>{{ model.key_resources }}</strong>
             </p>
             <p>
-              Custormer Target: <strong>{{ model.cutomer_target }}</strong>
+              Custormer Target: <strong>{{ model.customer_target }}</strong>
             </p>
             <p>
               Value Proposition: <strong>{{ model.value_proposition }}</strong>

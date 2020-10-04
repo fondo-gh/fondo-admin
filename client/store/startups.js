@@ -88,6 +88,7 @@ const actions = {
         data1: data.data,
       }
       commit('setStartup', stateData)
+      commit('setLoader', false)
     } catch (error) {
       console.log(error.response)
     }

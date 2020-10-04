@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{2180:function(t,n,e){"use strict";e.r(n);var o={layout:"admin",created:function(){this.$store.commit("admin/logout")}},c=e(11),component=Object(c.a)(o,(function(){var t=this.$createElement;return(this._self._c||t)("div")}),[],!1,null,null,null);n.default=component.exports}}]);
